@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Ignorar diretório de scripts e seus arquivos SQL específicos
+scripts/001_create_enrollments.sql
+scripts/002_create_courses.sql
+scripts/003_create_audit_logs.sql
+scripts/004_add_education_network.sql
+scripts/005_add_document_fields.sql
+scripts/006_create_socioeconomic_forms.sql
+scripts/007_add_guardian_rg.sql
+scripts/008_create_enrollment_users.sql
+scripts/009_create_admin_user_direct.sql
+scripts/010_fix_enrollments_schema.sql
+scripts/011_comprehensive_schema_fix.sql
+scripts/012_create_enrollment_users_table.sql
+scripts/012_new_enrollment_structure.sql
+scripts/013_add_enrollment_number.sql
+scripts/013_fix_enrollment_users_rls.sql
+scripts/014_create_access_codes_table.sql
+scripts/014_ensure_enrollment_users_constraints.sql
+scripts/014_update_existing_enrollment_numbers.sql
+scripts/015_fix_enrollment_users_rls.sql
+scripts/015_generate_access_codes.sql
+scripts/016_add_access_code_to_enrollments.sql
+scripts/016_fix_rls_infinite_recursion.sql
+scripts/016_generate_access_codes_fixed.sql
+scripts/017_clean_database_setup.sql
+scripts/018_disable_rls_completely.sql
+scripts/019_add_password_to_enrollment_users.sql
+scripts/020_fix_access_codes_rls.sql
+scripts/021_enforce_single_use_access_codes.sql
+scripts/022_add_printed_field.sql
+scripts/seed.ts
+
+
+
